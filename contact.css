@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border-style: solid;
+    border-radius: 25px;
+    border-color: pink;
+    height: 65vh;
+    width: 45vw;
+    display: flex;
+    justify-content:center;
+align-items: center;
+background-image: url(./x.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+line-height: 3;
+box-shadow: 0 0 50px lightpink;
+position: relative;
+}
+.h{
+    color: yellow;
+    display: flex;
+}
+#out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    background-image: url(./c.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container form{
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.butt{
+    background-color:yellow;
+    border-radius: 45px;
+    width: 145%;
+    padding: 5px;
+    cursor: pointer;
+   
+}
+input{
+    height: 3vh;
+}
+.butt:hover{
+    transform: scale(1.2);
+}
+
+
+
+#mess{
+    height: 15vh;
+    width:12vw ;
+}
+#icon{
+   margin: 5px;
+   
+   
+}
+.social{
+   
+    border-radius: 25px;
+    border-color: white;
+    height: 5vh;
+    width: 45vw;
+    position:absolute;
+    
+    top: 22%;
+    
+    
+   
+}
+.insta{
+    width: 2.5%;
+   
+    position: fixed;
+    left: 45%;
+    bottom: 73%;
+    
+    
+}
+.linkedin{
+    width: 2.5%;
+    
+    position: fixed;
+    left:49%;
+    bottom: 73%;
+   
+}
+.github{
+    width: 2.5%;
+    
+    position: fixed;
+    left: 53%;
+    bottom: 73%;
+   
+}
+#hov:hover{
+    transform: scale(1.5);
+}
+@media screen and (max-width:990px) {
+    .insta{
+    width: 3.5%;
+   
+    position: fixed;
+    left: 40%;
+    bottom: 72%;
+    
+    
+}
+.h{
+    font-size: medium;
+    
+}
+.linkedin{
+    width: 3.5%;
+    
+    position: fixed;
+    left:48%;
+    bottom: 72%;
+   
+}
+.github{
+    width: 3.5%;
+    
+    position: fixed;
+    left: 55%;
+    bottom: 72.5%;
+   
+}
+}
+@media screen and (max-width:550px){
+    
+    .container{
+        border-style: solid;
+        border-radius: 25px;
+        border-color: pink;
+        height: 65vh;
+        width: 65vw;
+        display: flex;
+        justify-content:center;
+    align-items: center;
+    background-image: url(./x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 3;
+    box-shadow: 0 0 50px lightpink;
+    position: relative;
+    }
+    .h{
+        font-size: medium;
+        
+    }
+    .insta{
+        width: 5.5%;
+       
+        position: fixed;
+        left: 40%;
+        bottom: 72%;
+        
+        
+    }
+    .linkedin{
+        width: 5.5%;
+        
+        position: fixed;
+        left:48%;
+        bottom: 72%;
+       
+    }
+    .github{
+        width: 5.5%;
+        
+        position: fixed;
+        left: 55%;
+        bottom: 72.5%;
+       
+    }
+}
